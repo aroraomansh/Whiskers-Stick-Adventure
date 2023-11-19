@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stick_hero.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Pane prefHeight="540.0" prefWidth="960.0">
+      <children>
+         <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../Downloads/background0%201.png" />
+            </image>
+         </ImageView>
+         <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="305.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" width="43.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="792.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" width="122.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="541.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="6.0" layoutX="318.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="17.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="6.0" layoutX="571.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="17.0" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="6.0" layoutX="845.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="17.0" />
+         <Button layoutX="355.0" layoutY="235.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="250.0" text="NEW GAME" textAlignment="CENTER">
+            <font>
+               <Font name="Kemco Pixel Bold" size="29.0" />
+            </font>
+         </Button>
+         <Button layoutX="355.0" layoutY="329.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="250.0" text="load" textAlignment="CENTER">
+            <font>
+               <Font name="Kemco Pixel Bold" size="29.0" />
+            </font>
+         </Button>
+         <Button layoutX="355.0" layoutY="424.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="250.0" text="exit" textAlignment="CENTER">
+            <font>
+               <Font name="Kemco Pixel Bold" size="29.0" />
+            </font>
+         </Button>
+         <Text layoutX="230.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ap project">
+            <font>
+               <Font name="Kemco Pixel Bold" size="64.0" />
+            </font>
+         </Text>
+         <Text fill="#00000080" layoutX="321.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2022342 &amp; 2022365">
+            <font>
+               <Font name="Kemco Pixel Bold" size="24.0" />
+            </font>
+         </Text>
+         <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="42.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../Downloads/hero_normal.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="241.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../Downloads/cherry.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="741.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../Downloads/cherry.png" />
+            </image>
+         </ImageView>
+      </children>
+   </Pane>
+</VBox>
