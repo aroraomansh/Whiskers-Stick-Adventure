@@ -63,5 +63,6 @@ In this project, you will develop a game where a character named stick-hero trav
 **Bonus Marks:**
 You have the opportunity to earn bonus marks by introducing innovative and exciting features to your game. Bonus marks will also be given for introducing multithreading in the game. Creativity and uniqueness will be considered when awarding bonus marks.
 
+**Deadline 1**
 ![image](https://github.com/aroraomansh/CSE201_Project/assets/119057485/615e10aa-6f1d-4a29-9c85-7ccc6b4e4520)
 
