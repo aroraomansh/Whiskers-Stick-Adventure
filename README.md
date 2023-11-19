@@ -1,6 +1,8 @@
 # CSE201 Advanced Programming
 ## AP PROJECT 2023
 
+![APbannerWIP](https://github.com/aroraomansh/CSE201_Project/assets/119057485/baffcdea-aee0-48a5-87de-91837f241302)
+
 **IMPORTANT Instructions:**
 1. It is mandatory to adhere to all deadlines in this project as per the schedule. No requests for deadline extensions will be entertained.
 2. You MUST maintain a PRIVATE Git repository for your project. Each group member should frequently commit their code to this repository. Plagiarism will not be tolerated; keep your repository private.
